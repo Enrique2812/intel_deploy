@@ -1,0 +1,25 @@
+{
+    "name": "user/intellweb.2",
+    "description": "Colegio Pamer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Enrique2812",
+            "email": "enriqueluiseat@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\":"./controllers"
+        }
+    },
+    "require": {
+        "intervention/image": "2",
+        "firebase/php-jwt": "^6.10",
+        "google/apiclient": "^2.18",
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
